@@ -24,4 +24,6 @@ a = (1, 5, 50, 3, 9)
 x = min(a)
 print(x)
 
-import this
+art=" delete space " 
+upd_are=art.rstrip()
+print(upd_are)
