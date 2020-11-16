@@ -45,5 +45,16 @@ print(cars[-4])
 
 	#Homework
 visit_places=["japan","korea","canada","new zeeland","italy"]
-
-
+print(visit_places)
+print(sorted(visit_places))
+print(visit_places)	#Sorted above didn't change the list itself
+print(sorted(visit_places, reverse=True))
+print(visit_places)	#Sorted reverse above didn't change the list itself
+visit_places.reverse()
+print(visit_places)
+visit_places.reverse()
+print(visit_places)#Second reverse returned to the first stage
+visit_places.sort()
+print(visit_places)
+visit_places.sort(reverse=True)
+print(visit_places)
