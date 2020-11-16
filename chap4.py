@@ -81,3 +81,17 @@ print("\n")
 
 cubes=[value**3 for value in range(1,11)]
 print(cubes)
+print("\n")
+
+lands=["usa", "canada", "mexico", "UK", "Germany"]
+print(lands[1:3])
+
+
+
+
+
+
+
+
+
+
