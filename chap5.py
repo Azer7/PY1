@@ -38,4 +38,22 @@ if "subru" not in cars:
 	print("Subru netu")
 
 
+print("\n")
+
+print("Enter your name:")
+
+age10 = input("age pls")
+
+if age10 in range(0,150):
+	print("good")
+else:
+	print("not good")
+
+
+
+
+
+
+
+
 
