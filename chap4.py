@@ -1,5 +1,6 @@
 	#CHAPTER 4
 
+	#cycle FOR
 cars=["bmw", "mercedes", "audi", "toyota", "suzuki"]
 
 for car in cars:
@@ -20,7 +21,7 @@ for pizza in pizzas:
 
 print("=== I really love pizza === \n")		
 
-
+	#Range method
 b=0
 for a in range(1,65):
 	print(a)
@@ -36,7 +37,7 @@ print("\n")
 for a in range(2,65,10):
 	print(a)
 
-
+	#Filling in empty list, min max sum
 print("\n")
 squares=[]
 for value in range(1,25,3):
@@ -78,11 +79,12 @@ print("\n")
 for number in range(1,11):
 	print(number**3)
 print("\n")
-
+	
+	#Shortcut
 cubes=[value**3 for value in range(1,11)]
 print(cubes)
 print("\n")
-
+	#Slices
 lands=["usa", "canada", "mexico", "UK", "Germany"]
 print(lands[1:3])
 
