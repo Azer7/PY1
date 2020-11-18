@@ -40,14 +40,19 @@ if "subru" not in cars:
 
 print("\n")
 
-print("Enter your name:")
+age10 = input("how old are you ")
 
-age10 = input("age pls")
+while age10.isnumeric()!=True:
+    age10 = input("Please enter correct value ")
+    
+age11=int(age10)    
 
-if age10 in range(0,150):
-	print("good")
+if age11 in range(18,151):
+    print("You are old enough for vote")
+elif age11>150 or age11<0:
+    print("out of range")
 else:
-	print("not good")
+    print("you are too young for vote")
 
 
 
