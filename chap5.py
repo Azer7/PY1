@@ -17,7 +17,7 @@ for car in cars:
 		print(car.title())	
 
 print("\n")
-
+	# using AND Not OR
 age1=18
 age2=19
 age3=22
@@ -39,7 +39,7 @@ if "subru" not in cars:
 
 
 print("\n")
-
+	#own while+check if numeric
 age10 = input("how old are you ")
 
 while age10.isnumeric()!=True:
